@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.--container {
+    .--nav {
+        margin-inline: 20px;
+        background-color: beige;
+
+        ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        li {
+            padding: 30px 20px;
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+.--body form{
+    margin-inline: 30rem;
+}
